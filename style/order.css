@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.dear-order{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/breadcrumb_bg5.png);
+    width: 100%;
+    height: 20rem;
+}
+.outstanding-order{
+    width: 100%;
+}
+.outstanding-order-central{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.outstanding-order-central-left ul{
+    display: block;
+    margin-top: 15px;
+    height: auto;
+}
+
+.outstanding-order-central-left ul li{
+    width: 100%;
+    border-bottom: 2px solid rgb(235, 235, 235);
+    background: rgb(211, 211, 211);
+}
+.outstanding-order-central-left ul li a{
+    color: black;
+    text-align: 10px;
+}
+.central-left-li{
+    text-align: center;
+}
+.it a{
+    padding-left: 15px;
+}
+.outstanding-order-central-left{
+    float: left;
+    width: 20%;
+}
+.outstanding-order-central-left-shared{
+    width: 100%;
+}
+/* bên phải  */
+.outstanding-order-central-right{
+    float: right;
+    margin-top: 15px;
+    width: 78%;
+}
+
+/* bên phải phần con ben trái*/
+.outstanding-order-central-right-share{
+    width: 65%;
+    float: left;
+}
+.outstanding-order-central-right-share-child{
+    margin-bottom: 15px;
+}
+.outstanding-order-central-right-title{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 15px;
+}
+.outstanding-order-central-right-shared{
+    display: flex;
+    grid-gap: 1rem;
+    margin-bottom: 15px;
+}
+.right-shared-ingredient{
+    width: 12rem;
+    height: auto;
+    background: rgb(240, 239, 239);
+    border-radius: 5%;
+}
+.right-shared-ingredient-img {
+    width: 80%;
+    margin: 0px auto;
+}
+.right-shared-ingredient-img img{
+    width: 100%;
+    margin-top: 15px;
+}
+.right-shared-text{
+    font-weight: 700;
+    text-align: center;
+    margin-top: 15px;
+}
+.right-shared-text-size{
+    margin: 15px;
+}
+.right-shared-text-boot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-shared-text-price{
+    font-size: 15px;
+}
+.right-shared-text-more{
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 50%;
+    background: #799dd9;
+    color: #ffffff;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 26px;
+    font-weight: 600;
+}
+/* bên trái phần trái */
+.outstanding-order-central-right-right-share{
+    float: right;
+    width: 33%;
+}
+.right-right-share{
+    width: 100%;
+    height: auto;
+    background: rgb(247, 247, 247);
+    border-radius: 5%;
+}
+.right-right-share-top{
+    display: flex;
+    grid-gap: 2rem;
+}
+.right-right-share-top-text{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+}
+.right-right-share-top-delete{
+    padding: 10px;
+}
+.right-right-share-body{
+    padding-left: 25px;
+    font-size: 15px;
+    color: rgb(124, 116, 116);
+}
+.right-right-share-payment-tc{
+    padding: 15px;
+}
+.right-right-share-payment{
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d8b979;
+    color: #ffffff;
+    margin: 0 20px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+/* Thanh toán */
+.payment{
+    width: 100%;
+    height: 100%;
+}
+
+.payment-shared{
+    position: absolute;
+    width: 30%;
+    height: auto;
+    background: #f1f0f0;
+    margin: 0px auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 5%;
+}
+.payment-shared-inside-text{
+    padding: 15px;
+    font-weight: 600;
+}
+.payment-shared-inside-molecule{
+    display: flex;
+    grid-gap: 15px;
+    margin-left: 15px;
+}
+.payment-shared-inside-molecule-img{
+    width: 20px;
+    height: 30px;
+    background: #799dd9;
+}
+.payment-shared-inside-molecule-text1{
+    font-weight: 600;
+}
+.information{
+    margin: 15px;
+}
+.information-child input{
+    background: 0 0;
+    outline: unset;
+    border: none;
+    padding: 10px 0;
+    font-size: 14px;
+    border-bottom: 1px solid #d6cdbc;
+    width: 100%;
+    outline: 0 !important;
+    box-shadow: none;
+    margin: 2px;
+}
+.information-subject{
+    margin: 15px;
+}
+.order-toco{
+    width: 100%;
+    margin: 15px 0px;
+    display: flex;
+}
+.order-toco-cn{
+    width: 50%;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d87979;
+    color: #ffffff;
+    margin: 0 20px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+/* bảnh tính tiền */
+.payment{
+    display: none;
+}
+.payment-shared{
+    z-index: 2;
+}
+.overlay{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: gray;
+    opacity: 0.7;
+}
+.overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: rgba(128, 128, 128, 0.5);
+}
+.close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    cursor: pointer;
+    z-index: 6;
+}

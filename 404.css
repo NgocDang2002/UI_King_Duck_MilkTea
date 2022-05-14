@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+.fault-practice{
+    background: url(../img/404-bg.png) no-repeat center center;
+    background-size: contain;
+    width: 100ch;
+    height: 97vh;
+    margin: 0px auto;
+
+}
+.fault{
+    position: relative;
+    text-align: center;
+    height: 28rem;
+    width: auto;
+}
+.fault-shared{
+    position: absolute;
+    /* line-height: 6rem; */
+    /* margin-bottom: 30px; */
+    /* margin-top: 15px; */
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+
+
+}
+.fault-text1{
+    font-size: 150px;
+    font-weight: 700;
+}
+.fault-text2{
+    font-size: 30px;
+}
+.fault-text3{
+    margin: 15px;
+}
+.tc{
+    font-size: 40px;
+    margin-top: 18%;
+}
